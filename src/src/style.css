@@ -22,7 +22,7 @@
     display: block;
     width: 100vw;
     height: 100vh;
-    background-image: url(../design/galaxy-background.jpg);
+    background-image: url(/src/src/galaxy-background.jpg);
     opacity: 1;
     z-index: 1;
     background-size: cover;
@@ -41,6 +41,7 @@
     width: 100%;
     display: flex;
     justify-content: space-between;
+    align-items: center;
     flex-direction: row;
     padding-right: 24px;
     gap: 32px;
@@ -71,15 +72,15 @@
 }
 
 @keyframes fade {
-    0% {opacity: 0;}
-    100% {opacity: 0.9;}
+    0% {opacity: 0}
+    100% {opacity: 0.9}
 }
 
 .navigation > li {
     display: flex;
     position: relative;
     padding: 0px;
-    color: white;
+    color: rgb(255, 255, 255);
     cursor: pointer;
     width: max-content;
     transition: all 0.2;
