@@ -53,12 +53,14 @@
     background-color: var(--background);
     height: 60px;
     opacity: 0.9;
+    
    
 }
 
 .menu_icon {
     cursor: pointer;
     display: flex;
+    order: 5;
    
 }
 
